@@ -23,7 +23,8 @@ An appropriate algorithm should be able to:
 
 For action #1 and #2 we'd need some kind of input form or dataset from which to gather the values needed for the variables **payment** and **price**. The first part of the algorithm would request the values for the two variables, where: 
 
-price = item cost
+price = item cost  
+
 payment = customer's money for the item
 
 Action #3 depends on having the correct amounts assigned to the known variables. Here, the algorithm must ensure sure that the given amounts meet the criteria of a situation where exact change is required by comparing both amounts. If **payment** is greater than **price**, then exact change is required and the algorithm can proceed to the next stage to determine the value of **change**.
