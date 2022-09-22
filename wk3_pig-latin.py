@@ -1,11 +1,36 @@
-# goal: write a program to that accepts one word at a time and prints out its simplified pig latin translation
+# goal: write a program that can translate english into pig latin. 
 
+# 1st ATTEMPT
+# word = input('Type one word: ')
+# print(word[1:] + word[0] + 'ay')
+# function
 
-# 1. get one word, probs using a built-in function, and store it in a variable
+# FUNCTION
+# def pigLatin(word):
+#     return print(word[1:] + word[0] + 'ay')
+
+# word = 'scholar'
+# vowels = ['a', 'e', 'i', 'o', 'u']
+# index = 0 
+
+# def pigLatin(word):
+    
 word = input('Type one word: ')
+index = 0
+vowels = ['a', 'e', 'i', 'o', 'u']
 
-# 2.  translation process 
-# 2.1 find index of the first character = word[0]
-# 2.2 move first character to last. easier to slice and add = word[1:] + word[0]
-# 3. print translation
-print(word[1:] + word[0] + 'ay')
+for letter in word:
+        index += 1
+
+        if word[0] in vowels:
+            print(word + 'yay')
+            break
+
+        elif word[0] not in vowels and word[1] in vowels:
+            print(word[1:] + word[0] + 'ay')
+            break
+        
+        elif word[index] in vowels:
+            print(word[index:] + word[:index] + 'ay')
+    
+
