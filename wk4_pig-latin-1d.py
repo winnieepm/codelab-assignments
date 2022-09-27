@@ -19,7 +19,6 @@ def pigLatin(word):
 
 # 1d. Modify your code in part 1c to repeat just the first word in pig latin one hundred times, but also print the rest of the words after that.
 
-
 def repeat(fn):
     repeats = range(101)
     for num in repeats:
@@ -28,9 +27,5 @@ def repeat(fn):
 str = input("Enter input: ")
 str = str.split(' ')
 
-print(repeat(pigLatin(str[0])))
+repeat(pigLatin(str[0]))
 print(str[1:])
-
-# Questions:
-# 1. What causes the 'None' result at the end of the repear()?
-# 2. Why do my solutions not work when I use print() instead of return in the pigLatin()?
