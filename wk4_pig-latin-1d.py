@@ -30,3 +30,7 @@ str = str.split(' ')
 
 print(repeat(pigLatin(str[0])))
 print(str[1:])
+
+# Questions:
+# 1. What causes the 'None' result at the end of the repear()?
+# 2. Why do my solutions not work when I use print() instead of return in the pigLatin()?
