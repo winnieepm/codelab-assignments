@@ -19,12 +19,18 @@ def pigLatin(word):
 
 # 1a. print(pigLatin(input("Enter input: ")))
 
+
 # 1b. repeat and print output from function x100
-def repeat(fn):
-    repeats = range(101)
-    for num in repeats:
-        print(fn)
+# def repeat(fn):
+#     repeats = range(101)
+#     for num in repeats:
+#         print(fn)
+# repeat(pigLatin(input("Enter input: ")))
 
-repeat(pigLatin(input("Enter input: ")))
 
-#1c. 
+# 1c. Modify your code in part 1a to split() the input into a list of multiple words. If there is only one word, it'll just be a list with one element. Then, only print the Pig Latin for the first word. The Python documentation for a particualr string method will be very useful here!
+
+str = input("Enter input: ")
+str = str.split(' ')
+
+pigLatin(str[0])
