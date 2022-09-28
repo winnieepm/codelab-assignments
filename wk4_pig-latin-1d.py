@@ -18,14 +18,20 @@ def pigLatin(word):
             break
 
 # 1d. Modify your code in part 1c to repeat just the first word in pig latin one hundred times, but also print the rest of the words after that.
+# def repeat(fn):
+#     repeats = range(101)
+#     for num in repeats:
+#          print(fn)
 
-def repeat(fn):
-    repeats = range(101)
-    for num in repeats:
-         print(fn)
+# str = input("Enter input: ")
+# str = str.split(' ')
 
-str = input("Enter input: ")
-str = str.split(' ')
+# repeat(pigLatin(str[0]))
+# print(str[1:])
 
-repeat(pigLatin(str[0]))
-print(str[1:])
+# print(pigLatin(list = input('write here: ').split()[0]*100))
+
+str = input('write here: ').split()
+print(pigLatin(str[0])*100, str[0:])
+
+
