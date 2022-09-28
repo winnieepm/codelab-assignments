@@ -18,11 +18,12 @@ def pigLatin(word):
             break
 
 
-# 1b. repeat and print output from function x100
-
-def repeat(fn):
-    repeats = range(101)
-    for num in repeats:
-         print(fn)
+# 1b. repeat and print output x100
+# def repeat(fn):
+#     repeats = range(101)
+#     for num in repeats:
+#          print(fn)
     
-repeat(pigLatin(input("Enter input: ")))
+# repeat(pigLatin(input("Enter input: ")))
+
+print(pigLatin('enter')*100)
