@@ -18,8 +18,9 @@ def pigLatin(word):
             break
 
 # 1c. Modify your code in part 1a to split() the input into a list of multiple words. If there is only one word, it'll just be a list with one element. Then, only print the Pig Latin for the first word. The Python documentation for a particualr string method will be very useful here!
+# str = input("Enter input: ")
+# str = str.split(' ')
 
-str = input("Enter input: ")
-str = str.split(' ')
+# pigLatin(str[0])
 
-pigLatin(str[0])
+print(input('write here: ').split()[0])
