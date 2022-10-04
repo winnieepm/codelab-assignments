@@ -23,4 +23,4 @@ def pigLatin(word):
 
 # pigLatin(str[0])
 
-print(input('write here: ').split()[0])
+print(pigLatin(input('write here: ').split()[0]))
