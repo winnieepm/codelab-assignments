@@ -9,13 +9,29 @@ with open('wk7.txt', 'r') as infile:
     for line in infile:
         lines.append(line)
 
+# print(lines)
 # STEP 1 find target person's name in lines list
-for line in lines:
+ben=0
+ben_char=0
+bea=0
+bea_char=0
+for index, line in enumerate(lines):
+    if line=="BENEDICK.\n":
+        ben+=1
+        while line!='\n':
+            print(len(line))
+        nextLine=lines[index+1]
+
+    # if line=="BEATRICE.\n":
+    #     bea+=1
+
+# print(ben)
+# print(bea)
 
 
-
-# STEP 2 find words BETWEEN chosen person and the next
+# STEP 2 find all words BETWEEN chosen person and the next character speaking
 # 2.1 define stop parameter
+
 
 
 
