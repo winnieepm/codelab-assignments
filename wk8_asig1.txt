@@ -1,0 +1,73 @@
+PROMPT
+Think about everything you know about your Praxis cohort (the icebreakers doc is fair game). Think about the kind of questions that might interest you about such a corpus and the best way to structure that information to answer those questions. Write some Python code in the vein of the Scholars Lab example in the data structures review that represents the model you come up with. This one is intentionally a bit amorphous, but any practice in thinking about the shape of data is useful.
+
+STEP 0.1 data
+people: winnie, samantha, malcolm, caroline
+
+winnie.bio {
+nationality: puerto rican 
+profession: phd student, instructor, research assistant
+department: spanish
+research: caribbean sci-fi and tech
+period: 20th-21st
+interests: creative practice, dh
+}
+winnie.icebreak {
+best-tacos: dunno
+fav-bad-movie: labyrinth (1986), waiting (2005)
+worst-dish: foie gras
+}
+
+samantha.bio {
+nationality: jamaican 
+profession: phd student, instructor, research assistant
+department: english
+research: caribbean poetry and literature
+period: 20th-21st
+interests: creative practice, dh
+} 
+samantha.icebreak {
+best-tacos: never had tacos in town
+fav-bad-movie: a knitht's tale, 2001
+worst-dish: cornmeal porridge
+}
+
+malcolm.bio {
+nationality: united states
+profession: phd student, teaching assistant
+department: history
+research: african-american urban studies 
+period: 20th-21st
+interests: activism, gis 
+}
+malcolm.icebreak {
+best-tacos: brazos tacos
+fav-bad-movie: anything, kevin heart
+worst-dish: iceberg lettuce
+}
+
+caroline.bio {
+nationality: united states
+profession: phd student, teaching assistant
+department: art history
+research:  greek mythology archeology
+period: TBD
+interests: 3d modelling, vr
+}
+caroline.icebreak {
+best-tacos: brazos tacos
+fav-bad-movie: tremors
+worst-dish: TBD
+}
+
+STEP 0.2 brainstorm questions
+
+1. repeated answers?
+2. similarity in fav bad movies?
+3. dislike salty, sweet, or bitter food?
+4. how many humanities, social science?
+5. diversity?
+
+
+STEP 0.3 clean & restructure data
+
