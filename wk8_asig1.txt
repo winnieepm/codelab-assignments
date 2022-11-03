@@ -60,8 +60,8 @@ fav-bad-movie: tremors
 worst-dish: TBD
 }
 
-STEP 0.2 brainstorm questions
 
+STEP 0.2 brainstorm questions
 1. repeated answers?
 2. similarity in fav bad movies?
 3. dislike salty, sweet, or bitter food?
