@@ -29,9 +29,11 @@ for person in cohort:
             end = index
             movie_yrs.append(str_answer[start:end])
         index+=1  
+    
+    for year in movie_yrs:
+        print(year)
 
-
-    print(type(movie_yrs)  )
+    # print(movie_yrs)
     # print('The movies came out on' + str(movie_yrs) + ', respectively.')
     
 
